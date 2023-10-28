@@ -1,0 +1,185 @@
+Output of the commands practiced
+ls - Desktop    Public        helloworld.c         helloworldsublime.cpp  passwords.txt        unshadow.txt
+Documents  Templates     helloworld.cpp       linuxhash              projects             unshadowed.txt
+Downloads  Videos        helloworldcpptest    linuxhashedtext        singlecrackmode.txt  wordlistmode.txt
+Music      a.out         helloworldsublime    output.db              sublimecpp
+Pictures   hellosublime  helloworldsublime.c  passwordFile           unshadow.t
+
+cd Downloads - (alisha㉿kali)-[~/Downloads]
+
+pwd - /home/alisha/Downloads
+
+ls -al Desktop - total 120
+drwxr-xr-x  2 alisha alisha  4096 Oct 19 11:50  .
+drwx------ 17 alisha alisha  4096 Oct 24 09:47  ..
+-rw-r--r--  1 alisha alisha    33 Oct 18 20:38 'MD5 Hash'
+-rw-r--r--  1 alisha alisha    15 Oct 18 20:48  PDFexample.pdf
+-rw-r--r--  1 alisha alisha 31401 Oct 10 22:11  funclipart.zip
+-rw-r--r--  1 alisha alisha 62537 Oct 11 20:48  hash.txt
+-rw-r--r--  1 alisha alisha    33 Oct 19 11:19  passw
+-rw-r--r--  1 alisha alisha     0 Oct 19 08:21  pdfexample
+-rw-r--r--  1 alisha alisha   101 Oct 19 11:49  topgunsexample.txt
+
+cd .. - alisha㉿kali)-[~]
+
+mkdir ASSIGNMENT6.2 - NO OUTPUT--COMMAND CREATED A NEW FOLDER 
+
+rmdir ASSIGNMENT6.2 - NO OUTPUT--COMMAND DELETED THE 'ASSIGNMENT6.2' FOLDER 
+
+open linuxhash - joker:$y$j9T$PZT8KwTVHJum7Yf1EjgsK.$Aj.P/yyg0CoqcT0Bki1AAFA9vm2e1Dz5IWygALBQKV8:19641:0:99999:7:::
+
+open Desktop - NO OUTPUT--COMMAND OPENED THE 'DESKSTOP' DIRECTORY
+
+open . - NO OUTPUT--COMMAND OPENED THE CURRENT DIRECTORY 'ALISHA'
+
+cat 'CSC 120 Assignment 6' - hello
+
+ls -al - total 20
+drwxr-xr-x  3 alisha alisha 4096 Oct 26 10:10  .
+drwx------ 21 alisha alisha 4096 Oct 27 22:27  ..
+-rw-r--r--  1 alisha alisha    6 Oct 14 16:42 'CSC 120 Assignment 6'
+-rw-r--r--  1 alisha alisha    7 Oct 14 17:03  linuxhash
+drwxr-xr-x  2 alisha alisha 4096 Oct 26 10:09  worlistexample
+
+less topgunsexample.txt - topguns:$y$j9T$wxISdvH6abQ3U/IcINkH90$e7lE.kaf/sBTqjRbQLNh23v8t2yMrEf8.4rUFSU0Oj/:19649:0:99999:7:::
+topgunsexample.txt (END)
+
+diff 'MD5 Hash' topgunsexample.txt - < 0c62304ea611959b5b437320f11b8881
+---
+> topguns:$y$j9T$wxISdvH6abQ3U/IcINkH90$e7lE.kaf/sBTqjRbQLNh23v8t2yMrEf8.4rUFSU0Oj/:19649:0:99999:7:::
+
+echo hello - hello
+
+umask - 022
+
+du - 116
+
+df - Filesystem     1K-blocks     Used Available Use% Mounted on
+udev             1941376        0   1941376   0% /dev
+tmpfs             401548     1176    400372   1% /run
+/dev/nvme0n1p2  29285264 14227508  13544796  52% /
+tmpfs            2007728        0   2007728   0% /dev/shm
+tmpfs               5120        0      5120   0% /run/lock
+/dev/nvme0n1p1    524008      160    523848   1% /boot/efi
+tmpfs             401544      116    401428   1% /run/user/1000
+
+locate rockyou.txt - /usr/share/wordlists/rockyou.txt
+
+basename /usr/share/wordlists/rockyou.txt - rockyou.txt 
+
+dirname /usr/share/wordlists/rockyou.txt - /usr/share/wordlists
+
+ps - PID TTY          TIME CMD
+  10912 pts/0    00:00:01 zsh
+  15130 pts/0    00:00:00 ps
+
+type ls - ls is an alias for ls --color=auto
+
+which ls - ls: aliased to ls --color=auto
+
+sudo apt update - Get:1 http://packages.microsoft.com/repos/code stable InRelease [3569 B]
+Get:2 http://packages.microsoft.com/repos/code stable/main amd64 Packages [82.8 kB]                        
+Hit:3 https://download.sublimetext.com apt/stable/ InRelease                                               
+Get:5 http://packages.microsoft.com/repos/code stable/main arm64 Packages [83.3 kB]                        
+Get:6 http://packages.microsoft.com/repos/code stable/main armhf Packages [83.8 kB]                        
+Hit:8 https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease                                         
+Hit:4 http://mirrors.jevincanders.net/kali kali-rolling InRelease                
+Hit:7 https://packagecloud.io/AtomEditor/atom/any any InRelease
+Fetched 254 kB in 1s (176 kB/s)                                
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+880 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+who - alisha   tty7         2023-10-27 22:12 (:0)
+
+passwd - Changing password for alisha.
+Current password: 
+
+ping google.com - PING google.com (74.125.138.101) 56(84) bytes of data.
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=1 ttl=128 time=15.6 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=2 ttl=128 time=18.4 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=3 ttl=128 time=17.8 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=4 ttl=128 time=16.6 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=5 ttl=128 time=31.5 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=6 ttl=128 time=16.0 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=7 ttl=128 time=22.5 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=8 ttl=128 time=16.6 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=9 ttl=128 time=17.3 ms
+64 bytes from yi-in-f101.1e100.net (74.125.138.101): icmp_seq=10 ttl=128 time=17.4 ms
+
+history - 1  john
+    2  --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
+    3  unshawdow /etc/passwd /etc/shadow > output.db
+    4  unshadow /etc/passwd /etc/shadow > output.db
+    5  john
+    6  unshadow / etc/passwd /etc/shadow > passwordFile
+    7  help
+    8  --help
+    9  john
+   10  --help
+   11  -help
+   12  john -h
+   13  /usr/share/wordlists/rockyou.txt
+
+john - John the Ripper 1.9.0-jumbo-1+bleeding-aec1328d6c 2021-11-02 10:45:52 +0100 OMP [linux-gnu 64-bit aarch64 ASIMD AC]
+Copyright (c) 1996-2021 by Solar Designer and others
+Homepage: https://www.openwall.com/john/
+Usage: john [OPTIONS] [PASSWORD-FILES]
+Use --help to list all available options.
+
+uname - Linux
+
+printenv PATH - /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+
+man ls - 
+NAME
+       ls - list directory contents
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+DESCRIPTION
+       List  information about the FILEs (the current directory by default).  Sort entries alphabetically
+       if none of -cftuvSUX nor --sort is specified.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+
+       --block-size=SIZE
+              with -l, scale sizes by SIZE when printing them; e.g., ’--block-size=M’;  see  SIZE  format
+              below
+
+       -B, --ignore-backups
+              do not list implied entries ending with ~
+
+       -c     with  -lt: sort by, and show, ctime (time of last modification of file status information);
+              with -l: show ctime and sort by name; otherwise: sort by ctime, newest first
+
+       -C     list entries by columns
+
+       --color[=WHEN]
+              color the output WHEN; more info below
+
+uptime - 22:59:32 up 48 min,  1 user,  load average: 0.00, 0.06, 0.03
+
+date - Fri Oct 27 23:00:34 EDT 2023
+
+cal - October 2023      
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30 31
+
+
